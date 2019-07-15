@@ -10,7 +10,7 @@ const _ = require('lodash')
 const app = express()
 
 const port = process.env.PORT || 4488
-const env = process.env.ENV || "development"
+const env = process.env.RUNNING_ENV || "development"
 
 const routes = {
   GET: {},

@@ -1,0 +1,21 @@
+{
+  "name": "maps_optimization",
+  "version": "1.0.0",
+  "description": "A project for optimization of google maps API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "author": "Mohammad Zeeshan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "galton": "^5.18.0",
+    "lodash": "^4.17.11",
+    "osrm": "^5.22.0",
+    "osrm.js": "^5.5.0",
+    "require-tree": "^1.1.1"
+  }
+}
